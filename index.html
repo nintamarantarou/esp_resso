@@ -19,7 +19,6 @@
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/Chart.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
-	
 
 	
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -33,7 +32,14 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
-		
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
@@ -78,6 +84,7 @@
 				<h3>WELCOME TO <bold>ESP_RESSO PAGE</bold>. <br/>
         THIS PAGE CONTAINS MY GUITAR WORKS AND EQUIPMENT AND ... <br/>
 				</h3>
+<div class="fb-like" data-layout="button_count" ></div>
 				</div>
 			</div>
 		</div><!-- /container -->
@@ -246,6 +253,8 @@ If you request some works,please contact me.</p>
 						<p>
 							<a href="https://twitter.com/esp_resso25"><i class="icon-twitter"></i></a>
 							<a href="mailto:karimofuna_shiitake@yahoo.co.jp"><i class="icon-envelope"></i></a>
+
+		
 						</p>
 						<br>
 				</div>
@@ -253,13 +262,13 @@ If you request some works,please contact me.</p>
 		</div><!-- /container -->
 	</div><!-- /f -->
 	
+<div class="fb-like"　data-layout="box_count" ></div>	
 	<div id="c">
 		<div class="container">
 			<p>Created by ESP_RESSO</a></p>
 		
 		</div>
 	</div>
-	
 	
 
     <!-- Bootstrap core JavaScript
